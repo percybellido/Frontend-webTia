@@ -44,3 +44,48 @@ a{
     display:flex;
     justify-content:center
 }
+.carousel-item{
+    max-height: 1058px;
+}
+.col .carousel .carousel-inner .carousel-item{
+    max-height: 1000px;
+    overflow: hidden;
+}
+footer {
+    padding: 20px 0;
+    background:#262a34;
+    color: #fff;
+
+}
+
+/*footer*/
+.redes-sociales {
+    padding: 40px 0;
+    margin-bottom: 40px;
+}
+.redes-sociales .icono {
+    width: 70px;
+    height: 70px;
+    color:#fff;
+    background: #cbcbcb;
+    display: inline-block;
+    margin: 0px 20px;
+    text-decoration: none;
+    border-radius: 100px;
+    transition: all .3s ease;
+}
+.redes-sociales .icono svg {
+    width: 30px;
+    height: 30px;
+}
+.redes-sociales .twitter {
+    background: #1da1f2;
+}
+
+.redes-sociales .instagram {
+    background: #833ab4;
+}
+
+.redes-sociales .facebook {
+    background: #3b5998;
+}
